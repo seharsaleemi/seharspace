@@ -1,0 +1,86 @@
+body {
+    background-color: #222222;
+}
+h1 {
+  text-align: center;
+
+}
+
+
+.social-menu ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #27004b;
+    font-size: 45px;
+    line-height: 90px;
+    transition: .5s;
+}
+
+
+/* Changes colour of icon when hover */
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Hover effect */
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+
+/* Colours of icons + applying hover */
+
+/* Instagram */
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #dd2a7b;
+}
+/* vsco */
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #666666;
+}
+/* twitch*/
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #6441a5;
+}
+
+/* spotify */
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #1db954;
+}
+
+/* steam */
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #666666;
+}
+
+/* Twitter */
+.social-menu ul li:nth-child(6) a:hover {
+    background-color: #0077B5;
+}
+/* YouTube */
+.social-menu ul li:nth-child(7) a:hover {
+    background-color: #e60023;
+}
